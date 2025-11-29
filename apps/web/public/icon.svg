@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="128" fill="#0284c7"/>
+  <g fill="#ffffff">
+    <!-- G -->
+    <path d="M120 170h80v30h-50v30h40v30h-40v30h50v30h-80z"/>
+    <!-- E -->
+    <path d="M220 170h80v30h-50v20h40v30h-40v20h50v30h-80z"/>
+    <!-- O -->
+    <ellipse cx="360" cy="215" rx="40" ry="65" fill="none" stroke="#ffffff" stroke-width="30"/>
+  </g>
+  <!-- Subtitle -->
+  <text x="256" y="380" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#10b981" text-anchor="middle">OS</text>
+</svg>

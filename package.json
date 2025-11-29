@@ -1,0 +1,35 @@
+{
+  "name": "gigeconomy-os",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The Operating System for the Post-Employment Era",
+  "workspaces": [
+    "apps/*",
+    "services/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces --if-present",
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "clean": "npm run clean --workspaces --if-present && rm -rf node_modules"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
+  "keywords": [
+    "gig-economy",
+    "worker-rights",
+    "fintech",
+    "microservices",
+    "platform-economy"
+  ],
+  "author": "GIGECONOMY OS Team",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.0"
+  }
+}
