@@ -178,11 +178,11 @@ const CollectivePage = () => {
                 {/* Action */}
                 <div className="flex items-center justify-between pt-4 border-t border-dark-200">
                   <div className="text-sm text-dark-600">
-                    Deadline: {new Date(campaign.deadline).toLocaleDateString('id-ID', {
+                    {campaign.deadline && `Deadline: ${new Date(campaign.deadline).toLocaleDateString('id-ID', {
                       day: 'numeric',
                       month: 'long',
                       year: 'numeric'
-                    })}
+                    })}`}
                   </div>
                   {!hasVoted && (
                     <button

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Shield, Zap, Heart, DollarSign, Clock, TrendingUp, CheckCircle } from 'lucide-react'
+import { Shield, Zap, DollarSign, Clock, TrendingUp, CheckCircle } from 'lucide-react'
 import { mockInsurance, mockInstantPay, mockFinancial } from '@shared/data/mockData'
 import { useToast } from '@shared/hooks/useToast'
 

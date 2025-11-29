@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Calendar, TrendingUp, Zap, MapPin, Clock, DollarSign, Star } from 'lucide-react'
+import { TrendingUp, Zap, MapPin, Clock, DollarSign, Star } from 'lucide-react'
 import { mockGigs, mockSchedule, mockReputation, mockPlatforms } from '@shared/data/mockData'
 import { useToast } from '@shared/hooks/useToast'
 
