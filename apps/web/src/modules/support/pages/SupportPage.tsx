@@ -66,11 +66,9 @@ const SupportPage = () => {
       <ToastContainer />
 
       {/* Header */}
-      <div className="flex items-center justify-between">
-        <div>
-          <h1 className="text-4xl font-bold mb-2">Support System</h1>
-          <p className="text-dark-600">LAYER 2: The Safety Net - Perlindungan dari bencana finansial</p>
-        </div>
+      <div>
+        <h1 className="text-2xl md:text-4xl font-bold mb-2">Support System</h1>
+        <p className="text-sm md:text-base text-dark-600">LAYER 2: The Safety Net - Perlindungan dari bencana finansial</p>
       </div>
 
       {/* Financial Overview */}

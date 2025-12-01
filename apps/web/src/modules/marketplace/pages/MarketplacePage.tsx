@@ -41,20 +41,18 @@ const MarketplacePage = () => {
       <ToastContainer />
 
       {/* Header */}
-      <div className="flex items-center justify-between">
-        <div>
-          <h1 className="text-4xl font-bold mb-2">Universal Gig Marketplace</h1>
-          <p className="text-dark-600">LAYER 1: The Engine - Maksimalkan penghasilan kamu di semua platform</p>
-        </div>
+      <div>
+        <h1 className="text-2xl md:text-4xl font-bold mb-2">Universal Gig Marketplace</h1>
+        <p className="text-sm md:text-base text-dark-600">LAYER 1: The Engine - Maksimalkan penghasilan kamu di semua platform</p>
       </div>
 
       {/* Reputation Score */}
       <div className="card bg-gradient-to-r from-primary-600/10 to-primary-800/10 border-primary-600/30">
-        <div className="flex items-center justify-between">
+        <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
           <div>
-            <h3 className="text-lg font-semibold text-dark-700 mb-1">Reputasi Cross-Platform</h3>
-            <div className="flex items-center space-x-4">
-              <div className="text-5xl font-bold text-primary-500">{mockReputation.overallScore}</div>
+            <h3 className="text-base md:text-lg font-semibold text-dark-700 mb-2">Reputasi Cross-Platform</h3>
+            <div className="flex items-center space-x-3 md:space-x-4">
+              <div className="text-3xl md:text-5xl font-bold text-primary-500">{mockReputation.overallScore}</div>
               <div>
                 <div className="flex items-center space-x-1 mb-1">
                   <Star className="w-5 h-5 text-warning fill-warning" />

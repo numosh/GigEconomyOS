@@ -14,17 +14,17 @@ const Dashboard = () => {
   return (
     <div className="space-y-8">
       {/* Hero Section with Worker Info */}
-      <section className="text-center py-8">
-        <div className="flex items-center justify-center mb-4 space-x-4">
-          <div className="w-16 h-16 bg-gradient-to-br from-primary-500 to-primary-700 rounded-full flex items-center justify-center">
-            <User className="w-8 h-8 text-white" />
+      <section className="text-center py-6 md:py-8">
+        <div className="flex items-center justify-center mb-4 space-x-2 md:space-x-4">
+          <div className="w-12 h-12 md:w-16 md:h-16 bg-gradient-to-br from-primary-500 to-primary-700 rounded-full flex items-center justify-center flex-shrink-0">
+            <User className="w-6 h-6 md:w-8 md:h-8 text-white" />
           </div>
           <div className="text-left">
-            <h2 className="text-2xl font-bold">Selamat datang, {mockWorker.name}!</h2>
-            <p className="text-dark-600">{mockWorker.location}</p>
+            <h2 className="text-xl md:text-2xl font-bold">Selamat datang, {mockWorker.name}!</h2>
+            <p className="text-sm md:text-base text-dark-600">{mockWorker.location}</p>
           </div>
         </div>
-        <p className="text-lg text-dark-600 max-w-3xl mx-auto">
+        <p className="text-sm md:text-lg text-dark-600 max-w-3xl mx-auto px-4">
           Command center kamu untuk mengoptimalkan penghasilan, melindungi diri, dan membangun kekuatan kolektif.
         </p>
       </section>
